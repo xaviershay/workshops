@@ -112,14 +112,13 @@ users.extraUsers.workshop = {
 };
 ```
 
-Save your configuration and set a password for the workshop account
+Save your configuration and try to set a password for the workshop account. This will fail, because the user doesn't exist yet! The next section explains why and how to fix this.
 
 ```bash
 passwd workshop
 ```
 
-This will fail, because the user doesn't exist yes. The next section explains
-why and how to fix this.
+
 
 ## 💡 nixos-rebuild
 
